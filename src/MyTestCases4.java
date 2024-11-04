@@ -14,6 +14,8 @@ import org.testng.annotations.Test;
 import dev.failsafe.internal.util.Assert;
 
 public class MyTestCases4 {
+	
+	//Jana 
 	WebDriver driver = new ChromeDriver();
 	String myWebsite = "https://automationteststore.com/";
 	String[] firstNames = { "ahmad", "ali", "anas", "omar", "ayat", "alaa", "sawsan", "Rama" };
