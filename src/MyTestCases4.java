@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeTest;
@@ -17,6 +18,8 @@ public class MyTestCases4 {
 	
 	//Jana 
 	WebDriver driver = new ChromeDriver();
+	WebDriver driver2 = new EdgeDriver();
+
 	String myWebsite = "https://automationteststore.com/";
 	String[] firstNames = { "ahmad", "ali", "anas", "omar", "ayat", "alaa", "sawsan", "Rama" };
 	String[] LastNames = { "Khaled", "mustafa", "Mohammad", "abdullah", "malek", "omar" };
